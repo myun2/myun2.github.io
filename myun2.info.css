@@ -1,0 +1,13 @@
+body {
+  padding: 48px;
+  font-family:Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ƒqƒ‰ƒMƒmŠpƒS ProN W3', Meiryo, ƒƒCƒŠƒI, sans-serif;
+  color: #444;
+  line-height: 150%;
+  font-size: 22px;
+}
+
+h1 {
+  margin: 0px;
+  color: #666;
+  font-size: 200%;
+}
