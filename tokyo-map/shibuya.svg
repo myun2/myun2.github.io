@@ -1,0 +1,36 @@
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg">
+ <g id="tokyo-map" transform="translate(50,150) scale(0.74)" >
+
+  <!-- in Shibuya -->
+  <g id="tokyo-map-shibuya">
+
+   <!-- Texts -->
+   <g id="tokyo-map-texts" font-family="Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif">
+    <g id="city-labels" font-size="42" font-weight="bold" fill="#227744" >
+     <text x="500" y="150">渋谷</text>
+    </g>
+    <g id="city-sub-labels" font-size="22" font-weight="bold" fill="#225533" >
+     <text x="592" y="150">(Shibuya)</text>
+    </g>
+
+    <g id="tokyo-expwy-jct-labels" font-size="31" font-weight="bold" fill="#355" >
+     <text x="920" y="-45">谷町JCT</text>
+     <text transform="translate(320,288) rotate(45)">大橋JCT</text>
+    </g>
+
+    <g id="tokyo-expwy-ic-labels" font-size="26" font-weight="bold" fill="#244" >
+     <text transform="translate(720,200) rotate(45)">高樹町IC</text>
+     <text transform="translate(550,286) rotate(45)">渋谷IC</text>
+     <text transform="translate(240,286) rotate(45)">三軒茶屋/池尻IC</text>
+     <text transform="translate(0,286) rotate(45)">用賀IC</text>
+    </g>
+   </g>
+
+   <g id="lines">
+    <g id="tokyo-expwy-lines" stroke="#385" stroke-width="15" stroke-linejoin="round">
+     <polyline points="900,-50  660,260  0,260" fill="none" />
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
