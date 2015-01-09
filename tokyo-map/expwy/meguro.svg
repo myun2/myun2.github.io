@@ -1,0 +1,26 @@
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <g id="tokyo-expwy-meguro-line">
+   <g id="tokyo-expwy-meguro-line-texts" font-family="Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif">
+    <g id="tokyo-expwy-meguro-line-jct-labels" font-size="31" font-weight="bold" fill="#355" >
+     <text x="16" y="32">一ノ橋JCT</text>
+    </g>
+    <g id="tokyo-expwy-meguro-line-ic-labels" font-size="26" font-weight="bold" fill="#244" >
+     <text transform="translate(18,120)">天現寺IC</text>
+     <text transform="translate(18,220)">白金料金所</text>
+     <text transform="translate(18,320)">目黒IC</text>
+     <text transform="translate(18,450)">戸越IC</text>
+     <text transform="translate(18,498)">荏原IC</text>
+    </g>
+   </g>
+
+   <g id="tokyo-expwy-meguro-line-lines" stroke="#385" stroke-width="15" stroke-linejoin="round">
+    <polyline id="tokyo-expwy-meguro-line1" points="0,0 0,498" fill="none" />
+   </g>
+  </g>
+ </defs>
+
+ <use xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#tokyo-expwy-meguro-line"
+      transform="translate(50,50) scale(0.74)" />
+</svg>
