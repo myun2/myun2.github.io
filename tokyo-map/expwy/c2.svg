@@ -1,28 +1,28 @@
-<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" height="1500">
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" height="1400">
  <defs>
   <g id="tokyo-expwy-c2">
    <g id="tokyo-expwy-c2-texts" font-family="Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif">
     <g id="tokyo-expwy-c2-jct-labels" font-size="32" font-weight="bold" fill="#355" >
-     <text x="16" y="20">大橋JCT</text>
-     <text x="16" y="240">西新宿JCT</text>
-     <text x="16" y="580">熊野町JCT</text>
-     <text x="16" y="660">板橋JCT</text>
-     <text x="16" y="910">江北JCT</text>
+     <text x="16" y="20">大橋JCT (至目黒線)</text>
+     <text x="16" y="240">西新宿JCT (新宿線 - 高井戸方面のみ)</text>
+     <text x="16" y="580">熊野町JCT (池袋線)</text>
+     <text x="16" y="660">板橋JCT (池袋線)</text>
+     <text x="16" y="910">江北JCT (川口線)</text>
      <text x="16" y="1180">小菅JCT</text>
      <text x="16" y="1280">堀切JCT</text>
-     <text x="16" y="1860">葛西JCT</text>
+     <text x="16" y="1760">葛西JCT</text>
     </g>
 
     <g id="tokyo-expwy-c2-ic-labels" font-size="23" font-weight="bold" fill="#244" >
-     <text transform="translate(14,80)">富ヶ谷IC (南側のみ)</text>
-     <text transform="translate(14,150)">初台南IC (北側のみ)</text>
+     <text transform="translate(14,80)">富ヶ谷IC (大橋方面のみ)</text>
+     <text transform="translate(14,150)">初台南IC (新宿方面のみ)</text>
 
-     <text transform="translate(14,320)">中野長者橋IC (南側のみ)</text>
-     <text transform="translate(14,400)">西池袋IC</text>
+     <text transform="translate(14,320)">中野長者橋IC (新宿方面のみ)</text>
+     <text transform="translate(14,400)">西池袋IC (熊野町方面入り口以外)</text>
      <text transform="translate(14,480)">高松入口 (熊野町JCT方面のみ)</text>
 
      <text transform="translate(14,740)">新板橋IC / 滝野川IC (王子方面のみ)</text>
-     <text transform="translate(14,810)">王子南/北IC (板橋方面のみ)</text>
+     <text transform="translate(14,810)">王子北IC (板橋方面のみ)</text>
 
      <text transform="translate(14,1000)">扇大橋IC</text>
      <text transform="translate(14,1084)">千住新橋IC</text>
@@ -30,15 +30,13 @@
 
      <text transform="translate(14,1360)">四つ木IC</text>
      <text transform="translate(14,1460)">平井大橋 (小松川方面のみ)</text>
-     <text transform="translate(14,1560)">(小松川JCT - 計画中)</text>
-
-     <text transform="translate(14,1660)">船堀橋IC (小松川方面のみ)</text>
-     <text transform="translate(14,1760)">清新町IC (葛西方面のみ)</text>
+     <text transform="translate(14,1560)">船堀橋IC (小松川方面のみ)</text>
+     <text transform="translate(14,1660)">清新町IC (葛西方面のみ)</text>
     </g>
    </g>
 
    <g id="tokyo-expwy-c2-lines" stroke="#385" stroke-width="15" stroke-linejoin="round">
-    <polyline id="tokyo-expwy-c21" points="0,0 0,1860" fill="none" />
+    <polyline id="tokyo-expwy-c21" points="0,0 0,1760" fill="none" />
    </g>
   </g>
  </defs>
