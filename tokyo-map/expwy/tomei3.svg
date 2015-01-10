@@ -1,0 +1,54 @@
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" height="1120">
+ <defs>
+  <g id="tomei-expwy">
+   <g id="tomei-expwy-texts" font-family="Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif">
+    <g id="tomei-expwy-jct-labels" font-size="31" font-weight="bold" fill="#355" >
+     <text x="12" y="120">三ヶ日JCT (255.8km. to 新東名)</text>
+     <text x="12" y="520">豊田JCT</text>
+     <text x="12" y="761">日進JCT (to 名古屋瀬戸道路)</text>
+     <text x="12" y="985">小牧JCT</text>
+
+     <text x="-10" y="1110">名神高速道路</text>
+     <text x="12" y="1240">一宮JCT (359.6km)</text>
+    </g>
+
+    <g id="tomei-expwy-sa-labels" font-size="27" font-weight="bold" fill="#c53" >
+     <text x="10" y="20">浜名湖SA (247.9km)</text>
+     <text x="10" y="188">新城PA</text>
+     <text x="10" y="292">赤塚PA</text>
+     <text x="10" y="400">美合PA</text>
+     <text x="10" y="580">上郷SA/SIC (305.8km)</text>
+     <text x="10" y="680">東郷PA (318.1km)</text>
+     <text x="10" y="880">守山PA/SIC</text>
+
+     <text x="10" y="1140">尾張一宮PA</text>
+     <text x="10" y="1290">羽島PA</text>
+    </g>
+
+    <g id="tomei-expwy-ic-labels" font-size="24" font-weight="bold" fill="#244" >
+     <text transform="translate(12,50)">三ヶ日IC</text>
+     <text transform="translate(12,240)">豊川IC</text>
+     <text transform="translate(12,340)">音羽蒲郡IC</text>
+     <text transform="translate(12,460)">岡崎IC (293.4km)</text>
+     <text transform="translate(12,620)">豊田IC</text>
+     <text transform="translate(12,820)">名古屋IC (325.5km)</text>
+     <text transform="translate(12,920)">春日井IC (337.6km)</text>
+     <text transform="translate(12,1040)">小牧IC (346.7km)</text>
+     <text transform="translate(12,1180)">一宮IC</text>
+     <text transform="translate(12,1340)">岐阜羽島IC (368.1km)</text>
+    </g>
+   </g>
+
+   <g id="tomei-expwy-lines" stroke="#385" stroke-width="15" stroke-linejoin="round">
+    <polyline id="tomei-expwy1" points="0,0 0,1080" fill="none" />
+   </g>
+   <g id="meishin-expwy-lines" stroke="#c53" stroke-width="15" stroke-linejoin="round">
+    <polyline id="tomei-expwy1" points="0,1115  0,1360" fill="none" />
+   </g>
+  </g>
+ </defs>
+
+ <use xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#tomei-expwy"
+      transform="translate(40,30) scale(0.74)" />
+</svg>
