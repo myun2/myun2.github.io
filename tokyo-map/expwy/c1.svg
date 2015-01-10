@@ -1,14 +1,14 @@
 <svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" height="1420">
  <defs>
-  <g id="tokyo-expwy-c2">
-   <g id="tokyo-expwy-c2-texts" font-family="Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif">
-    <g id="tokyo-expwy-c2-jct-labels" font-size="32" font-weight="bold" fill="#355" >
-     <text x="16" y="8">江戸橋JCT</text>
-     <text x="16" y="130">京橋JCT</text>
+  <g id="tokyo-expwy-c1">
+   <g id="tokyo-expwy-c1-labels">
+    <g id="tokyo-expwy-c1-jct-labels" font-size="32" font-weight="bold" fill="#355">
+     <text x="28" y="8">江戸橋JCT (0.0km)</text>
+     <text x="28" y="139">京橋JCT (to KK-line)</text>
 
-     <text x="16" y="560">汐留JCT</text>
-     <text x="16" y="660">浜崎橋JCT</text>
-     <text x="16" y="870">一ノ橋JCT (目黒線)</text>
+     <text x="28" y="495">汐留JCT</text>
+     <text x="28" y="660">浜崎橋JCT</text>
+     <text x="28" y="870">一ノ橋JCT (目黒線)</text>
 
      <text x="16" y="1050">谷町JCT (渋谷線)</text>
      <text x="16" y="1235">三宅坂JCT (新宿線)</text>
@@ -17,30 +17,75 @@
      <text x="16" y="1750">江戸橋JCT</text>
     </g>
 
-    <g id="tokyo-expwy-c2-ic-labels" font-size="23" font-weight="bold" fill="#244" >
-     <text transform="translate(14,94)">宝町出入口</text>
-     <text transform="translate(14,220)">京橋IC</text>
-     <text transform="translate(14,320)">新富町出口</text>
-     <text transform="translate(14,420)">銀座出入口</text>
+    <g id="tokyo-expwy-c1-ic-labels" font-size="23" font-weight="bold" fill="#244" >
+     <text transform="translate(28,94)">宝町出入口 (0.8km)</text>
+     <text transform="translate(28,220)">京橋IC (1.6km)</text>
+     <text transform="translate(28,300)">新富町出口 (1.7km / 1.9km)</text>
+     <text transform="translate(28,398)">銀座出入口 (2.0km / 2.5km)</text>
 
-     <text transform="translate(14,520)">汐留出入口</text>
-     <text transform="translate(14,762)">芝公園</text>
-     <text transform="translate(14,955)">飯倉出入口</text>
-     <text transform="translate(14,1140)">霞が関IC</text>
+     <text transform="translate(28,540)">汐留出入口 (3.2km)</text>
+     <text transform="translate(28,762)">芝公園</text>
+     <text transform="translate(28,955)">飯倉出入口</text>
+     <text transform="translate(28,1140)">霞が関IC</text>
 
-     <text transform="translate(14,1330)">代官町/北の丸出入口</text>
-     <text transform="translate(14,1520)">神田橋IC</text>
-     <text transform="translate(14,1645)">呉服橋/江戸橋IC</text>
+     <text transform="translate(28,1330)">代官町/北の丸出入口</text>
+     <text transform="translate(28,1520)">神田橋IC</text>
+     <text transform="translate(28,1645)">呉服橋/江戸橋IC</text>
     </g>
    </g>
 
-   <g id="tokyo-expwy-c2-lines" stroke="#385" stroke-width="15" stroke-linejoin="round">
-    <polyline id="tokyo-expwy-c21" points="0,-12 0,1750" fill="none" />
+   <g id="tokyo-expwy-c1-lines" stroke="#385" stroke-linejoin="round">
+    <g stroke-width="15">
+     <polyline id="tokyo-expwy-c1-path1" points="0,-16 0,1750" fill="none" />
+    </g>
+    <g stroke-width="9">
+     <!-- Edobashi JCT -->
+     <path id="tokyo-expwy-edobashi-jct-to-c1" d="M-28,-8 Q0,-8 0,32" fill="none"/>
+     <path id="tokyo-expwy-edobashi-jct-to-r6" d="M 28,-8 Q0,-8 0,32" fill="none"/>
+     <path id="tokyo-expwy-edobashi-jct-to-c1" d="M-28,-4 Q0,-4 0,32" fill="none"/>
+     <path id="tokyo-expwy-edobashi-jct-to-r6" d="M 28,-4 Q0,-4 0,32" fill="none"/>
+
+     <!-- Takaracho IC -->
+     <polyline points="-24,95 0,82" fill="none"/>
+     <polyline points="24,95 0,82" fill="none"/>
+
+     <!-- Kyobashi JCT -->
+     <path id="tokyo-expwy-kyobashi-jct" d="M-28,134 Q0,134 0,100" fill="none"/>
+     <path id="tokyo-expwy-kyobashi-jct" d="M-28,138 Q0,138 0,100" fill="none"/>
+
+     <!-- Kyobashi IC -->
+     <polyline points="-24,200 0,220" fill="none"/>
+     <polyline points="24,200 0,220" fill="none"/>
+
+     <!-- Shin-tomicho IC -->
+     <polyline points="-24,290 0,310" fill="none"/>
+     <polyline points="24,290 0,270" fill="none"/>
+
+     <!-- Ginza IC -->
+     <polyline points="-24,370 0,350" fill="none"/>
+     <polyline points="24,370 0,390" fill="none"/>
+     <polyline points="-24,390 0,410" fill="none"/>
+     <polyline points="24,410 0,430" fill="none"/>
+
+     <!-- Shiodome JCT -->
+     <path id="tokyo-expwy-kyobashi-jct" d="M-28,480 Q0,480 0,520" fill="none"/>
+     <path id="tokyo-expwy-kyobashi-jct" d="M-28,475 Q0,475 0,520" fill="none"/>
+     <polyline points="-24,520 0,540" fill="none"/>
+     <polyline points="24,520 0,540" fill="none"/>
+    </g>
    </g>
   </g>
  </defs>
 
+ <g id="tokyo-expwy-c1-texts" font-family="Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif">
+  <text x="12" y="40" font-size="19" fill="#233">東京都心環状線 (C1)</text>
+
+  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+       xlink:href="#tokyo-expwy-c1-labels"
+       transform="translate(40,80) scale(0.74)" />
+ </g>
+
  <use xmlns:xlink="http://www.w3.org/1999/xlink"
-      xlink:href="#tokyo-expwy-c2"
-      transform="translate(50,50) scale(0.74)" />
+      xlink:href="#tokyo-expwy-c1-lines"
+      transform="translate(40,80) scale(0.74)" />
 </svg>
