@@ -10,7 +10,7 @@
      <text x="43" y="826">一ノ橋JCT (to 目黒線)</text>
 
      <text x="43" y="1010">谷町JCT (渋谷線)</text>
-     <text x="32" y="1235">三宅坂JCT (新宿線)</text>
+     <text x="43" y="1220">三宅坂JCT (新宿線)</text>
      <text x="32" y="1430">竹橋JCT (池袋線)</text>
      <text x="32" y="1557">神田橋JCT (八重洲線)</text>
      <text x="32" y="1750">江戸橋JCT</text>
@@ -25,7 +25,7 @@
 
      <text transform="translate(32,724)">芝公園 (5.2km / 5.7km)</text>
      <text transform="translate(28,936)">飯倉出入口 (7.2km)</text>
-     <text transform="translate(28,1140)">霞が関IC</text>
+     <text transform="translate(28,1120)">霞が関IC (8.8km / 9.2km)</text>
 
      <text transform="translate(28,1330)">代官町/北の丸出入口</text>
      <text transform="translate(28,1520)">神田橋IC</text>
@@ -37,15 +37,22 @@
     <g stroke-width="15">
      <polyline id="tokyo-expwy-c1-path1" points="0,-16 0,1750" fill="none" />
     </g>
+    <g stroke-width="20" stroke="white">
+     <polyline id="tokyo-expwy-kasumigaseki-white-path" points="0,1105 0,1116" fill="none" />
+    </g>
 
     <g stroke-width="10">
      <!-- Hitotsubashi JCT -->
-     <path id="tokyo-expwy-kyobashi-jct" d="M35,810 Q0,830 0,770" fill="none"/>
-     <path id="tokyo-expwy-kyobashi-jct" d="M38,810 Q0,830 0,880" fill="none"/>
+     <path d="M35,810 Q0,830 0,770" fill="none"/>
+     <path d="M38,810 Q0,830 0,880" fill="none"/>
 
      <!-- Tanimachi JCT -->
-     <path id="tokyo-expwy-kyobashi-jct" d="M35,1000 Q0,1000 0,950" fill="none"/>
-     <path id="tokyo-expwy-kyobashi-jct" d="M38,1000 Q0,1000 0,1050" fill="none"/>
+     <path d="M35,1000 Q0,1000 0,950" fill="none"/>
+     <path d="M38,1000 Q0,1000 0,1050" fill="none"/>
+
+     <!-- Miyakezaka JCT -->
+     <path d="M35,1210 Q0,1210 0,1170" fill="none"/>
+     <path d="M35,1210 Q0,1210 0,1250" fill="none"/>
     </g>
 
     <g stroke-width="9">
@@ -97,6 +104,12 @@
      <!-- Iikura IC -->
      <polyline points="-24,940 0,920" fill="none"/>
      <polyline points="24,920 0,900" fill="none"/>
+
+     <!-- kasumigaseki IC -->
+     <path d="M0,1050 C0,1080 -16,1080 -16,1112" fill="none"/>
+     <path d="M0,1170 C0,1140 -16,1140 -16,1112" fill="none"/>
+     <path d="M0,1050 C0,1080  16,1080  16,1112" fill="none"/>
+     <path d="M0,1170 C0,1140  16,1140  16,1112" fill="none"/>
     </g>
    </g>
   </g>
