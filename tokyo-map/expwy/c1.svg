@@ -7,7 +7,7 @@
      <text x="28" y="139">京橋JCT (to KK-line)</text>
      <text x="28" y="495">汐留JCT</text>
      <text x="32" y="620">浜崎橋JCT (to Haneda-line)</text>
-     <text x="43" y="826">一ノ橋JCT (to 目黒線)</text>
+     <text x="43" y="815">一ノ橋JCT (to 目黒線)</text>
 
      <text x="43" y="1010">谷町JCT (渋谷線)</text>
      <text x="43" y="1220">三宅坂JCT (新宿線)</text>
@@ -23,8 +23,8 @@
      <text transform="translate(28,398)">銀座出入口 (2.0km / 2.5km)</text>
      <text transform="translate(28,540)">汐留出入口 (3.2km)</text>
 
-     <text transform="translate(32,724)">芝公園 (5.2km / 5.7km)</text>
-     <text transform="translate(28,936)">飯倉出入口 (7.2km)</text>
+     <text transform="translate(32,720)">芝公園 (5.2km / 5.7km)</text>
+     <text transform="translate(28,900)">飯倉出入口 (7.2km)</text>
      <text transform="translate(28,1120)">霞が関IC (8.8km / 9.2km)</text>
 
      <text transform="translate(28,1330)">代官町/北の丸出入口</text>
@@ -43,8 +43,8 @@
 
     <g stroke-width="10">
      <!-- Hitotsubashi JCT -->
-     <path d="M35,810 Q0,830 0,770" fill="none"/>
-     <path d="M38,810 Q0,830 0,880" fill="none"/>
+     <path d="M35,800 Q0,820 0,760" fill="none"/>
+     <path d="M38,800 Q0,820 0,870" fill="none"/>
 
      <!-- Tanimachi JCT -->
      <path d="M35,1000 Q0,1000 0,950" fill="none"/>
@@ -102,8 +102,8 @@
      <polyline points="24,733 0,753" fill="none"/>
 
      <!-- Iikura IC -->
-     <polyline points="-24,940 0,920" fill="none"/>
-     <polyline points="24,920 0,900" fill="none"/>
+     <polyline points="-24,905 0,885" fill="none"/>
+     <polyline points="24,885 0,865" fill="none"/>
 
      <!-- kasumigaseki IC -->
      <path d="M0,1050 C0,1080 -16,1080 -16,1112" fill="none"/>
