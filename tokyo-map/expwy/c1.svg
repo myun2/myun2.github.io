@@ -11,9 +11,9 @@
 
      <text x="43" y="1010">谷町JCT (渋谷線)</text>
      <text x="43" y="1220">三宅坂JCT (新宿線)</text>
-     <text x="32" y="1430">竹橋JCT (池袋線)</text>
-     <text x="32" y="1557">神田橋JCT (八重洲線)</text>
-     <text x="32" y="1750">江戸橋JCT</text>
+     <text x="40" y="1395">竹橋JCT (池袋線)</text>
+     <text x="43" y="1557">神田橋JCT (八重洲線)</text>
+     <text x="43" y="1750">江戸橋JCT</text>
     </g>
 
     <g id="tokyo-expwy-c1-ic-labels" font-size="23" font-weight="bold" fill="#244" >
@@ -27,7 +27,8 @@
      <text transform="translate(28,900)">飯倉出入口 (7.2km)</text>
      <text transform="translate(28,1120)">霞が関IC (8.8km / 9.2km)</text>
 
-     <text transform="translate(28,1330)">代官町/北の丸出入口</text>
+     <text transform="translate(28,1290)">代官町出入口 (11.6)</text>
+     <text transform="translate(28,1324)">北の丸出口 (12.0km)</text>
      <text transform="translate(28,1520)">神田橋IC</text>
      <text transform="translate(28,1645)">呉服橋/江戸橋IC</text>
     </g>
@@ -53,6 +54,10 @@
      <!-- Miyakezaka JCT -->
      <path d="M35,1210 Q0,1210 0,1170" fill="none"/>
      <path d="M35,1210 Q0,1210 0,1250" fill="none"/>
+
+     <!-- Takebashi JCT -->
+     <path d="M35,1382 Q0,1382 0,1342" fill="none"/>
+     <path d="M35,1382 Q0,1382 0,1422" fill="none"/>
     </g>
 
     <g stroke-width="9">
@@ -110,6 +115,11 @@
      <path d="M0,1170 C0,1140 -16,1140 -16,1112" fill="none"/>
      <path d="M0,1050 C0,1080  16,1080  16,1112" fill="none"/>
      <path d="M0,1170 C0,1140  16,1140  16,1112" fill="none"/>
+
+     <!-- Daikancho IC -->
+     <polyline points="-24,1290 0,1270" fill="none"/>
+     <polyline points="24,1290 0,1270" fill="none"/>
+     <polyline points="-24,1305 0,1325" fill="none"/>
     </g>
    </g>
   </g>
