@@ -1,10 +1,10 @@
-<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" height="1420">
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" height="1380">
  <defs>
   <g id="tokyo-expwy-c1">
    <g id="tokyo-expwy-c1-labels">
     <g id="tokyo-expwy-c1-jct-labels" font-size="32" font-weight="bold" fill="#355">
      <text x="28" y="8">江戸橋JCT (0.0km)</text>
-     <text x="28" y="139">京橋JCT (to KK線)</text>
+     <text x="22" y="139">京橋JCT (to KK線)</text>
      <text x="28" y="495">汐留JCT (to KK線)</text>
      <text x="32" y="620">浜崎橋JCT (to 羽田線)</text>
      <text x="43" y="815">一ノ橋JCT (to 目黒線)</text>
@@ -13,12 +13,12 @@
      <text x="43" y="1220">三宅坂JCT (新宿線)</text>
      <text x="40" y="1395">竹橋JCT (池袋線)</text>
      <text x="28" y="1536">神田橋JCT (to 八重洲線)</text>
-     <text x="43" y="1750">江戸橋JCT</text>
+     <text x="16" y="1710">江戸橋JCT</text>
     </g>
 
     <g id="tokyo-expwy-c1-ic-labels" font-size="23" font-weight="bold" fill="#244" >
-     <text transform="translate(28,94)">宝町出入口 (0.8km)</text>
-     <text transform="translate(28,220)">京橋IC (1.6km)</text>
+     <text transform="translate(28,80)">宝町出入口 (0.8km)</text>
+     <text transform="translate(28,200)">京橋IC (1.6km)</text>
      <text transform="translate(28,300)">新富町出口 (1.7km / 1.9km)</text>
      <text transform="translate(28,398)">銀座出入口 (2.0km / 2.5km)</text>
      <text transform="translate(28,540)">汐留出入口 (3.2km)</text>
@@ -30,13 +30,17 @@
      <text transform="translate(28,1290)">代官町出入口 (11.6)</text>
      <text transform="translate(25,1324)">北の丸出口 (12.0km)</text>
      <text transform="translate(31,1475)">神田橋IC (12.9km / 13.2km)</text>
-     <text transform="translate(28,1645)">呉服橋/江戸橋IC</text>
+     <text transform="translate(31,1580)">呉服橋IC (14.0km)</text>
+     <text transform="translate(31,1630)">江戸橋IC (14.2km)</text>
     </g>
    </g>
 
    <g id="tokyo-expwy-c1-lines" stroke="#385" stroke-linejoin="round">
     <g stroke-width="15">
-     <polyline id="tokyo-expwy-c1-path1" points="0,-16 0,1750" fill="none" />
+     <polyline id="tokyo-expwy-c1-path1" points="0,-16 0,1720" fill="none" />
+
+     <!-- Kyobashi JCT -->
+     <path id="tokyo-expwy-kyobashi-jct" d="M-28,134 Q0,134 0,110" fill="none"/>
     </g>
     <g stroke-width="20" stroke="white">
      <polyline id="tokyo-expwy-kasumigaseki-white-path" points="0,1105 0,1116" fill="none" />
@@ -68,16 +72,12 @@
      <path id="tokyo-expwy-edobashi-jct-to-r6" d="M 28,-4 Q0,-4 0,32" fill="none"/>
 
      <!-- Takaracho IC -->
-     <polyline points="-24,95 0,82" fill="none"/>
-     <polyline points="24,95 0,82" fill="none"/>
-
-     <!-- Kyobashi JCT -->
-     <path id="tokyo-expwy-kyobashi-jct" d="M-28,134 Q0,134 0,100" fill="none"/>
-     <path id="tokyo-expwy-kyobashi-jct" d="M-28,138 Q0,138 0,100" fill="none"/>
+     <polyline points="-24,80 0,60" fill="none"/>
+     <polyline points="24,80 0,60" fill="none"/>
 
      <!-- Kyobashi IC -->
-     <polyline points="-24,200 0,220" fill="none"/>
-     <polyline points="24,200 0,220" fill="none"/>
+     <polyline points="-24,190 0,210" fill="none"/>
+     <polyline points="24,190 0,210" fill="none"/>
 
      <!-- Shin-tomicho IC -->
      <polyline points="-24,290 0,310" fill="none"/>
@@ -131,6 +131,11 @@
      <path d="M-28,1534 Q0,1534 0,1500" fill="none"/>
      <path d="M-28,1538 Q0,1538 0,1500" fill="none"/>
 
+     <!-- Gouhukubashi IC -->
+     <polyline points="-24,1570 0,1590" fill="none"/>
+     <polyline points="24,1570 0,1590" fill="none"/>
+     <polyline points="-24,1625 0,1605" fill="none"/>
+     <polyline points="24,1625 0,1605" fill="none"/>
     </g>
    </g>
   </g>
