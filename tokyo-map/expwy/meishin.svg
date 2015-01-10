@@ -1,0 +1,48 @@
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" height="1120">
+ <defs>
+  <g id="tomei-expwy">
+   <g id="tomei-expwy-texts" font-family="Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif">
+    <g id="tomei-expwy-jct-labels" font-size="31" font-weight="bold" fill="#355" >
+     <text x="12" y="150">養老JCT</text>
+     <text x="12" y="330">米原JCT (405.1km)</text>
+     <text x="12" y="860">草津JCT</text>
+    </g>
+
+    <g id="tomei-expwy-sa-labels" font-size="27" font-weight="bold" fill="#c53" >
+     <text x="10" y="195">養老SA</text>
+     <text x="10" y="270">伊吹PA</text>
+     <text x="10" y="440">多賀SA</text>
+     <text x="10" y="490">湖東三山PA/SIC (424.2km)</text>
+     <text x="10" y="600">黒丸PA</text>
+     <text x="10" y="720">菩提寺PA</text>
+     <text x="10" y="920">草津PA (465.3km)</text>
+     <text x="10" y="1060">大津SA/IC</text>
+     <text x="10" y="1250">桂川PA</text>
+    </g>
+
+    <g id="tomei-expwy-ic-labels" font-size="24" font-weight="bold" fill="#244" >
+     <text transform="translate(12,20)">岐阜羽島IC</text>
+     <text transform="translate(12,80)">大垣IC (374.9km)</text>
+     <text transform="translate(12,220)">関ヶ原IC</text>
+     <text transform="translate(12,390)">彦根IC</text>
+     <text transform="translate(12,540)">八日市IC</text>
+     <text transform="translate(12,660)">竜王IC (446.9km)</text>
+     <text transform="translate(12,784)">栗東IC</text>
+     <text transform="translate(12,998)">瀬田東JCT/IC・瀬田西IC</text>
+     <text transform="translate(12,1120)">京都東IC (477.6km)</text>
+
+     <text transform="translate(12,1196)">京都南IC</text>
+    </g>
+   </g>
+
+
+   <g id="tomei-expwy-lines" stroke="#385" stroke-width="15" stroke-linejoin="round">
+    <polyline id="tomei-expwy1" points="0,0 0,1280" fill="none" />
+   </g>
+  </g>
+ </defs>
+
+ <use xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#tomei-expwy"
+      transform="translate(40,30) scale(0.74)" />
+</svg>
