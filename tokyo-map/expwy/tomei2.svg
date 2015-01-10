@@ -1,0 +1,55 @@
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" height="1180">
+ <defs>
+  <g id="tomei-expwy">
+   <g id="tomei-expwy-texts" font-family="Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif">
+    <g id="tomei-expwy-jct-labels" font-size="31" font-weight="bold" fill="#355" >
+     <text x="12" y="24">御殿場JCT (88.3km / to 新東名)</text>
+     <text x="12" y="420">清水JCT</text>
+    </g>
+    <g id="tomei-expwy-detail-labels" font-size="21" font-weight="bold" fill="#244" >
+     <text x="136" y="212"></text>
+    </g>
+
+	
+    <g id="tomei-expwy-sa-labels" font-size="27" font-weight="bold" fill="#c53" >
+     <text x="12" y="65">駒門PA (89.9km)</text>
+     <text x="10" y="200">愛鷹PA</text>
+     <text x="10" y="292">富士川SA/SIC (127.5km)</text>
+     <text x="10" y="360">由比PA</text>
+     <text x="10" y="520">日本平PA</text>
+     <text x="10" y="660">日本坂PA</text>
+     <text x="10" y="810">牧之原SA (194.5km)</text>
+     <text x="10" y="1000">小笠PA</text>
+     <text x="10" y="1170">遠州豊田PA/SIC (225.2km)</text>
+     <text x="10" y="1280">三方原PA/SIC</text>
+     <text x="10" y="1385">浜名湖SA (247.9km)</text>
+    </g>
+
+    <g id="tomei-expwy-ic-labels" font-size="24" font-weight="bold" fill="#244" >
+     <text transform="translate(12,120)">裾野IC</text>
+     <text transform="translate(12,172)">沼津IC</text>
+     <text transform="translate(12,260)">富士IC (121.5km)</text>
+     <text transform="translate(12,460)">清水IC (147.8km)</text>
+     <text transform="translate(12,589)">静岡IC (161.8km)</text>
+     <text transform="translate(12,690)">焼津IC</text>
+     <text transform="translate(12,746)">吉田IC</text>
+     <text transform="translate(12,860)">相良牧之原IC</text>
+     <text transform="translate(12,900)">菊川IC</text>
+     <text transform="translate(12,940)">掛川IC</text>
+     <text transform="translate(12,1060)">袋井IC</text>
+     <text transform="translate(12,1110)">磐田IC</text>
+     <text transform="translate(12,1220)">浜松IC</text>
+     <text transform="translate(12,1320)">浜松西IC</text>
+    </g>
+   </g>
+
+   <g id="tomei-expwy-lines" stroke="#385" stroke-width="15" stroke-linejoin="round">
+    <polyline id="tomei-expwy1" points="0,0 0,1410" fill="none" />
+   </g>
+  </g>
+ </defs>
+
+ <use xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#tomei-expwy"
+      transform="translate(40,50) scale(0.74)" />
+</svg>
