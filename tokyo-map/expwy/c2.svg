@@ -10,7 +10,7 @@
      <text x="16" y="510">熊野町JCT (池袋線 - 都心方面)</text>
      <text x="36" y="590">板橋JCT (池袋線 - 郊外方面)</text>
 
-     <text x="32" y="910">江北JCT (川口線)</text>
+     <text x="36" y="810">江北JCT (川口線)</text>
      <text x="32" y="1180">小菅JCT</text>
      <text x="32" y="1280">堀切JCT</text>
      <text x="32" y="1760">葛西JCT</text>
@@ -21,20 +21,20 @@
      <text transform="translate(30,150)">初台南IC</text>
 
      <text transform="translate(30,310)">中野長者橋IC</text>
-     <text transform="translate(30,380)">西池袋IC</text>
-     <text transform="translate(30,430)">高松入口</text>
+     <text transform="translate(30,380)">西池袋IC (21.6km)</text>
+     <text transform="translate(30,430)">高松入口 (23.7km)</text>
 
-     <text transform="translate(14,740)">新板橋IC / 滝野川IC (王子方面のみ)</text>
-     <text transform="translate(14,810)">王子北IC (板橋方面のみ)</text>
+     <text transform="translate(30,660)">新板橋IC / 滝野川IC</text>
+     <text transform="translate(30,730)">王子北IC</text>
 
-     <text transform="translate(14,1000)">扇大橋IC</text>
-     <text transform="translate(14,1084)">千住新橋IC</text>
-     <text transform="translate(14,1208)">小菅IC (千住方面のみ)</text>
+     <text transform="translate(30,895)">扇大橋IC (31.4km / 32.4km)</text>
+     <text transform="translate(26,985)">千住新橋IC (34.4km / 35.4km)</text>
+     <text transform="translate(30,1208)">小菅IC (千住方面のみ)</text>
 
-     <text transform="translate(14,1360)">四つ木IC</text>
-     <text transform="translate(14,1460)">平井大橋 (小松川方面のみ)</text>
-     <text transform="translate(14,1560)">船堀橋IC (小松川方面のみ)</text>
-     <text transform="translate(14,1660)">清新町IC (葛西方面のみ)</text>
+     <text transform="translate(30,1360)">四つ木IC</text>
+     <text transform="translate(30,1460)">平井大橋 (小松川方面のみ)</text>
+     <text transform="translate(30,1560)">船堀橋IC (小松川方面のみ)</text>
+     <text transform="translate(30,1660)">清新町IC (葛西方面のみ)</text>
     </g>
    </g>
 
@@ -49,6 +49,10 @@
     <!-- Kumanocho / Itabashi JCT -->
     <path d="M-32,480 Q0,480 0,530" fill="none"/>
     <path d="M32,580 Q0,580 0,530" fill="none"/>
+
+    <!-- Kumanocho / Itabashi JCT -->
+    <path d="M34,800 Q0,800 0,750" fill="none"/>
+    <path d="M34,800 Q0,800 0,850" fill="none"/>
    </g>
    <g stroke="#386" stroke-width="9">
     <!-- Toyogaya IC -->
@@ -71,6 +75,26 @@
     
     <!-- Itabashi JCT -->
     <path d="M32,580 Q0,580 0,630" fill="none"/>
+
+    <!-- Shin-itabashi, Takinogawa IC -->
+    <polyline points="-24,660 0,640" fill="none"/>
+    <polyline points="24,660 0,640" fill="none"/>
+
+    <!-- Ohzikita IC -->
+    <polyline points="-24,710 0,730" fill="none"/>
+    <polyline points="24,710 0,730" fill="none"/>
+
+    <!-- Ohgi-oohashi-->
+    <polyline points="-24,875 0,855" fill="none"/>
+    <polyline points="24,875 0,855" fill="none"/>
+    <polyline points="-24,900 0,920" fill="none"/>
+    <polyline points="24,900 0,920" fill="none"/>
+
+    <!-- Seiju-oohashi-->
+    <polyline points="-24,965 0,945" fill="none"/>
+    <polyline points="24,965 0,945" fill="none"/>
+    <polyline points="-24,990 0,1010" fill="none"/>
+    <polyline points="24,990 0,1010" fill="none"/>
    </g>
   </g>
  </defs>
