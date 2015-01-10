@@ -4,15 +4,15 @@
    <g id="tokyo-expwy-c1-labels">
     <g id="tokyo-expwy-c1-jct-labels" font-size="32" font-weight="bold" fill="#355">
      <text x="28" y="8">江戸橋JCT (0.0km)</text>
-     <text x="28" y="139">京橋JCT (to KK-line)</text>
-     <text x="28" y="495">汐留JCT</text>
-     <text x="32" y="620">浜崎橋JCT (to Haneda-line)</text>
+     <text x="28" y="139">京橋JCT (to KK線)</text>
+     <text x="28" y="495">汐留JCT (to KK線)</text>
+     <text x="32" y="620">浜崎橋JCT (to 羽田線)</text>
      <text x="43" y="815">一ノ橋JCT (to 目黒線)</text>
 
      <text x="43" y="1010">谷町JCT (渋谷線)</text>
      <text x="43" y="1220">三宅坂JCT (新宿線)</text>
      <text x="40" y="1395">竹橋JCT (池袋線)</text>
-     <text x="43" y="1557">神田橋JCT (八重洲線)</text>
+     <text x="28" y="1536">神田橋JCT (to 八重洲線)</text>
      <text x="43" y="1750">江戸橋JCT</text>
     </g>
 
@@ -28,8 +28,8 @@
      <text transform="translate(28,1120)">霞が関IC (8.8km / 9.2km)</text>
 
      <text transform="translate(28,1290)">代官町出入口 (11.6)</text>
-     <text transform="translate(28,1324)">北の丸出口 (12.0km)</text>
-     <text transform="translate(28,1520)">神田橋IC</text>
+     <text transform="translate(25,1324)">北の丸出口 (12.0km)</text>
+     <text transform="translate(31,1475)">神田橋IC (12.9km / 13.2km)</text>
      <text transform="translate(28,1645)">呉服橋/江戸橋IC</text>
     </g>
    </g>
@@ -85,7 +85,7 @@
 
      <!-- Ginza IC -->
      <polyline points="-24,370 0,350" fill="none"/>
-     <polyline points="24,370 0,390" fill="none"/>
+     <polyline points="24,390 0,370" fill="none"/>
      <polyline points="-24,390 0,410" fill="none"/>
      <polyline points="24,410 0,430" fill="none"/>
 
@@ -120,6 +120,17 @@
      <polyline points="-24,1290 0,1270" fill="none"/>
      <polyline points="24,1290 0,1270" fill="none"/>
      <polyline points="-24,1305 0,1325" fill="none"/>
+
+     <!-- Kanda IC -->
+     <polyline points="-24,1455 0,1435" fill="none"/>
+     <polyline points="24,1455 0,1435" fill="none"/>
+     <polyline points="-24,1470 0,1490" fill="none"/>
+     <polyline points="24,1470 0,1490" fill="none"/>
+
+     <!-- Kandabashi JCT -->
+     <path d="M-28,1534 Q0,1534 0,1500" fill="none"/>
+     <path d="M-28,1538 Q0,1538 0,1500" fill="none"/>
+
     </g>
    </g>
   </g>
