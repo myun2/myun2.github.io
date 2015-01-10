@@ -2,24 +2,27 @@
  <defs>
   <g id="tokyo-expwy-c2">
    <g id="tokyo-expwy-c2-texts" font-family="Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif">
+    <text x="-50" y="-70" font-size="45" fill="#233">東京中央環状線 (C2)</text>
+
     <g id="tokyo-expwy-c2-jct-labels" font-size="32" font-weight="bold" fill="#355" >
-     <text x="16" y="20">大橋JCT (至目黒線)</text>
-     <text x="16" y="240">西新宿JCT (新宿線 - 高井戸方面のみ)</text>
-     <text x="16" y="580">熊野町JCT (池袋線)</text>
-     <text x="16" y="660">板橋JCT (池袋線)</text>
-     <text x="16" y="910">江北JCT (川口線)</text>
-     <text x="16" y="1180">小菅JCT</text>
-     <text x="16" y="1280">堀切JCT</text>
-     <text x="16" y="1760">葛西JCT</text>
+     <text x="16" y="8">大橋JCT (至目黒線)</text>
+     <text x="32" y="230">西新宿JCT (新宿線 高井戸方面のみ)</text>
+     <text x="16" y="510">熊野町JCT (池袋線 - 都心方面)</text>
+     <text x="36" y="590">板橋JCT (池袋線 - 郊外方面)</text>
+
+     <text x="32" y="910">江北JCT (川口線)</text>
+     <text x="32" y="1180">小菅JCT</text>
+     <text x="32" y="1280">堀切JCT</text>
+     <text x="32" y="1760">葛西JCT</text>
     </g>
 
     <g id="tokyo-expwy-c2-ic-labels" font-size="23" font-weight="bold" fill="#244" >
-     <text transform="translate(14,80)">富ヶ谷IC (大橋方面のみ)</text>
-     <text transform="translate(14,150)">初台南IC (新宿方面のみ)</text>
+     <text transform="translate(30,80)">富ヶ谷IC</text>
+     <text transform="translate(30,150)">初台南IC</text>
 
-     <text transform="translate(14,320)">中野長者橋IC (新宿方面のみ)</text>
-     <text transform="translate(14,400)">西池袋IC (熊野町方面入り口以外)</text>
-     <text transform="translate(14,480)">高松入口 (熊野町JCT方面のみ)</text>
+     <text transform="translate(30,310)">中野長者橋IC</text>
+     <text transform="translate(30,380)">西池袋IC</text>
+     <text transform="translate(30,430)">高松入口</text>
 
      <text transform="translate(14,740)">新板橋IC / 滝野川IC (王子方面のみ)</text>
      <text transform="translate(14,810)">王子北IC (板橋方面のみ)</text>
@@ -36,12 +39,43 @@
    </g>
 
    <g id="tokyo-expwy-c2-lines" stroke="#385" stroke-width="15" stroke-linejoin="round">
-    <polyline id="tokyo-expwy-c21" points="0,0 0,1760" fill="none" />
+    <polyline id="tokyo-expwy-c2-1" points="0,-40 0,1760" fill="none" />
+    <polyline id="tokyo-expwy-c2-3" points="0,220 25,220" fill="none" />
+   </g>
+
+   <g stroke="#386" stroke-width="12">
+    <polyline id="tokyo-expwy-c2-2" points="-30,-40 80,-40" fill="none" />
+
+    <!-- Kumanocho / Itabashi JCT -->
+    <path d="M-32,480 Q0,480 0,530" fill="none"/>
+    <path d="M32,580 Q0,580 0,530" fill="none"/>
+   </g>
+   <g stroke="#386" stroke-width="9">
+    <!-- Toyogaya IC -->
+    <polyline points="-24,60 0,80" fill="none"/>
+    <polyline points="24,60 0,80" fill="none"/>
+
+    <!-- hatsudai minami IC -->
+    <polyline points="-24,150 0,130" fill="none"/>
+    <polyline points="24,150 0,130" fill="none"/>
+
+    <!-- Nakano Choja IC -->
+    <polyline points="-24,290 0,310" fill="none"/>
+    <polyline points="24,290 0,310" fill="none"/>
+
+    <!-- Nishi-ikebukuro / Takamatsu IC -->
+    <polyline points="-24,380 0,360" fill="none"/>
+    <polyline points="24,380 0,360" fill="none"/>
+    <polyline points="-24,400 0,420" fill="none"/>
+    <polyline points="24,420 0,440" fill="none"/>
+    
+    <!-- Itabashi JCT -->
+    <path d="M32,580 Q0,580 0,630" fill="none"/>
    </g>
   </g>
  </defs>
 
  <use xmlns:xlink="http://www.w3.org/1999/xlink"
       xlink:href="#tokyo-expwy-c2"
-      transform="translate(50,50) scale(0.74)" />
+      transform="translate(55,90) scale(0.74)" />
 </svg>
