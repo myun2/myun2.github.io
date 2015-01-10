@@ -5,10 +5,9 @@
     <g id="tokyo-expwy-c1-jct-labels" font-size="32" font-weight="bold" fill="#355">
      <text x="28" y="8">江戸橋JCT (0.0km)</text>
      <text x="28" y="139">京橋JCT (to KK-line)</text>
-
      <text x="28" y="495">汐留JCT</text>
-     <text x="28" y="660">浜崎橋JCT</text>
-     <text x="28" y="870">一ノ橋JCT (目黒線)</text>
+     <text x="32" y="620">浜崎橋JCT (to Haneda-line)</text>
+     <text x="43" y="826">一ノ橋JCT (to 目黒線)</text>
 
      <text x="16" y="1050">谷町JCT (渋谷線)</text>
      <text x="16" y="1235">三宅坂JCT (新宿線)</text>
@@ -22,9 +21,9 @@
      <text transform="translate(28,220)">京橋IC (1.6km)</text>
      <text transform="translate(28,300)">新富町出口 (1.7km / 1.9km)</text>
      <text transform="translate(28,398)">銀座出入口 (2.0km / 2.5km)</text>
-
      <text transform="translate(28,540)">汐留出入口 (3.2km)</text>
-     <text transform="translate(28,762)">芝公園</text>
+
+     <text transform="translate(32,724)">芝公園 (5.2km / 5.7km)</text>
      <text transform="translate(28,955)">飯倉出入口</text>
      <text transform="translate(28,1140)">霞が関IC</text>
 
@@ -37,6 +36,11 @@
    <g id="tokyo-expwy-c1-lines" stroke="#385" stroke-linejoin="round">
     <g stroke-width="15">
      <polyline id="tokyo-expwy-c1-path1" points="0,-16 0,1750" fill="none" />
+    </g>
+    <g stroke-width="10">
+     <!-- Hitotsubashi JCT -->
+     <path id="tokyo-expwy-kyobashi-jct" d="M35,810 Q0,830 0,790" fill="none"/>
+     <path id="tokyo-expwy-kyobashi-jct" d="M38,810 Q0,830 0,900" fill="none"/>
     </g>
     <g stroke-width="9">
      <!-- Edobashi JCT -->
@@ -70,8 +74,19 @@
      <!-- Shiodome JCT -->
      <path id="tokyo-expwy-kyobashi-jct" d="M-28,480 Q0,480 0,520" fill="none"/>
      <path id="tokyo-expwy-kyobashi-jct" d="M-28,475 Q0,475 0,520" fill="none"/>
+
+     <!-- Shiodomo IC -->
      <polyline points="-24,520 0,540" fill="none"/>
      <polyline points="24,520 0,540" fill="none"/>
+
+     <!-- Hamasaki Bashi -->
+     <path id="tokyo-expwy-kyobashi-jct" d="M28,640 Q0,590 0,530" fill="none"/>
+
+     <!-- Shibakouen IC -->
+     <polyline points="-24,683 0,663" fill="none"/>
+     <polyline points="24,713 0,693" fill="none"/>
+     <polyline points="-24,703 0,723" fill="none"/>
+     <polyline points="24,733 0,753" fill="none"/>
     </g>
    </g>
   </g>
@@ -82,10 +97,10 @@
 
   <use xmlns:xlink="http://www.w3.org/1999/xlink"
        xlink:href="#tokyo-expwy-c1-labels"
-       transform="translate(40,80) scale(0.74)" />
+       transform="translate(60,80) scale(0.74)" />
  </g>
 
  <use xmlns:xlink="http://www.w3.org/1999/xlink"
       xlink:href="#tokyo-expwy-c1-lines"
-      transform="translate(40,80) scale(0.74)" />
+      transform="translate(60,80) scale(0.74)" />
 </svg>
