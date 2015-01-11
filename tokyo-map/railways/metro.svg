@@ -2,6 +2,7 @@
  <defs>
   <g id="tokyo-metro-labels" >
    <g id="tokyo-metro-line-name-labels" font-size="26" font-weight="bold" fill="#344" >
+    <text x="-240" y="-50">大江戸線</text>
     <text x="-192" y="60">千代田線</text>
 
     <text x="-120" y="148">副都心線</text>
@@ -53,6 +54,7 @@
   </g>
 
   <g id="tokyo-metro-lines" stroke-linejoin="round" stroke-width="12" stroke-linecap="round">
+   <polyline stroke="#e69" id="ooedo-line" points="900,-60  660,-60  -200,-60" fill="none" />
    <polyline stroke="#074" id="chiyoda-line" points="-107,0  -47,60  200,300  660,72  900,60" fill="none" />
 
    <polyline stroke="#884" id="fukutoshin-line" points="0,144  100,60   1400,60" fill="none" />
@@ -69,11 +71,10 @@
    <polyline id="asakusa-line" points="900,-50  660,260  0,260" fill="none" />
    <polyline id="mita-line" points="900,-50  660,260  0,260" fill="none" />
    <polyline id="shinjuku-line" points="900,-50  660,260  0,260" fill="none" />
-   <polyline id="ooedo-line" points="900,-50  660,260  0,260" fill="none" />
   </g>
  </defs>
 
- <g transform="translate(146,180) scale(0.74)" >
+ <g transform="translate(160,320) scale(0.74)" >
   <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tokyo-metro-lines" />
 
   <!-- Texts -->
