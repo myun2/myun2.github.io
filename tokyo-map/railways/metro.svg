@@ -1,14 +1,14 @@
-<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" height="890" width="1400">
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" height="940" width="1400">
  <defs>
   <g id="tokyo-metro-labels" >
    <g id="tokyo-metro-line-name-labels" font-size="26" font-weight="bold" fill="#344" >
-    <text x="-120" y="-380">有楽町線</text>
-    <text x="-120" y="-348">副都心線</text>
+    <text x="-120" y="-360">有楽町線</text>
+    <text x="-120" y="-328">副都心線</text>
     <text x="-200" y="-260">東西線</text>
 
     <text x="-200" y="-165">都営新宿線</text>
     <text x="-200" y="-120">丸の内線</text>
-    <text x="-240" y="-60">大江戸線</text>
+    <text x="-200" y="-60">大江戸線</text>
     <text x="-192" y="60">千代田線</text>
 
     <text x="-120" y="148">副都心線</text>
@@ -21,8 +21,8 @@
    </g>
 
    <g id="tokyo-metro-major-station-labels" font-size="32" font-weight="bold">
-    <text transform="translate(0,-330) rotate(45)">池袋</text>
-    <text transform="translate(0,-100) rotate(45)">新宿</text>
+    <text transform="translate(65,-330) rotate(45)">池袋</text>
+    <text transform="translate(65,-100) rotate(45)">新宿</text>
     <text transform="translate(0,217) rotate(45)">渋谷</text>
     <text transform="translate(-72,366) rotate(45)">中目黒</text>
     <text transform="translate(10,366) rotate(45)">恵比寿</text>
@@ -61,10 +61,16 @@
     <text transform="translate(-50,49)">代々木公園</text>
     <text transform="translate(45,134)">明治神宮前 原宿</text>
     <text transform="translate(100,80)">北参道</text>
-    <text transform="translate(120,0)">新宿三丁目</text>
-    <text transform="translate(120,-80)">東新宿</text>
-    <text transform="translate(120,-160)">西早稲田</text>
-    <text transform="translate(120,-240)">雑司が谷</text>
+
+    <text transform="translate(-20,-160) rotate(45)">西新宿</text>
+    <text transform="translate(0,-50) rotate(45)">都庁前</text>
+    <text transform="translate(80,20) rotate(45)">代々木</text>
+    <text transform="translate(230,120)">国立競技場</text>
+
+    <text transform="translate(150,0)">新宿三丁目</text>
+    <text transform="translate(150,-80)">東新宿</text>
+    <text transform="translate(150,-160)">西早稲田</text>
+    <text transform="translate(150,-240)">雑司が谷</text>
 
     <text transform="translate(100,292)">乃木坂</text>
     <!--新橋-->
@@ -83,12 +89,12 @@
   </g>
 
   <g id="tokyo-metro-lines" stroke-linejoin="round" stroke-width="12" stroke-linecap="round">
-   <polyline stroke="#cb3" id="yurakucho-line" points="0,-390  1500,-390" fill="none" />
+   <polyline stroke="#cb3" id="yurakucho-line" points="0,-420  1500,-420" fill="none" />
    <polyline stroke="#4bd" id="tozai-line" points="-100,-268  1500,-268" fill="none" />
 
-   <polyline stroke="#6c3" id="shinjuku-line" points="-110,-190  1500,-190" fill="none" />
-   <polyline stroke="#d22" id="marunouchi-line" points="-110,-120  1500,-120" fill="none" />
-   <polyline stroke="#e69" id="ooedo-line" points="-110,-70  1500,-70" fill="none" />
+   <polyline stroke="#6c3" id="shinjuku-line" points="-30,-175  1500,-175" fill="none" />
+   <polyline stroke="#d22" id="marunouchi-line" points="-80,-120  1500,-120" fill="none" />
+   <polyline stroke="#e69" id="ooedo-line" points="-80,-70  1500,-70" fill="none" />
    <polyline stroke="#074" id="chiyoda-line" points="-107,0  -47,60  200,300  660,72  900,60" fill="none" />
 
    <polyline stroke="#863" id="fukutoshin-line" points="0,144  100,60   1400,60" fill="none" />
@@ -103,7 +109,7 @@
   </g>
  </defs>
 
- <g transform="translate(160,320) scale(0.74)" >
+ <g transform="translate(160,340) scale(0.74)" >
   <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tokyo-metro-lines" />
 
   <!-- Texts -->
