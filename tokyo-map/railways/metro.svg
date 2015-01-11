@@ -33,9 +33,9 @@
     <text transform="translate(90,360) rotate(45)">広尾</text>
     <text transform="translate(155,360) rotate(45)">六本木</text>
 
-    <text transform="translate(-197,16)">代々木上原</text>
-    <text transform="translate(-74,38)">代々木公園</text>
-    <text transform="translate(50,127)">明治神宮前 原宿</text>
+    <text transform="translate(-90,7)">代々木上原</text>
+    <text transform="translate(-50,49)">代々木公園</text>
+    <text transform="translate(45,134)">明治神宮前 原宿</text>
     <text transform="translate(100,292)">乃木坂</text>
     <!--新橋-->
     <text transform="translate(560,210) rotate(45)">銀座</text>
@@ -53,7 +53,7 @@
   </g>
 
   <g id="tokyo-metro-lines" stroke-linejoin="round" stroke-width="12" stroke-linecap="round">
-   <polyline stroke="#074" id="chiyoda-line" points="-80,0  -76,72  -20,72  200,300  660,72  900,60" fill="none" />
+   <polyline stroke="#074" id="chiyoda-line" points="-107,0  -47,60  200,300  660,72  900,60" fill="none" />
 
    <polyline stroke="#884" id="fukutoshin-line" points="0,144  100,60   1400,60" fill="none" />
    <polyline stroke="#86c" id="hanzomon-line"   points="0,167  1400,167" fill="none" />
