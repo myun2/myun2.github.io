@@ -27,7 +27,6 @@
     <text transform="translate(-72,366) rotate(45)">中目黒</text>
     <text transform="translate(10,366) rotate(45)">恵比寿</text>
     <text transform="translate(-10,527) rotate(45)">目黒</text>
-    <text transform="translate(-10,650) rotate(45)">五反田</text>
 
     <text transform="translate(490,215) rotate(45)">新橋</text>
     <text transform="translate(840,217) rotate(45)">神田</text>
@@ -35,6 +34,11 @@
     <text transform="translate(1330,217) rotate(45)">浅草</text>
 
     <text transform="translate(350,186) rotate(45)">永田町</text>
+
+    <!-- 浅草線 major Stations -->
+    <text transform="translate(-10,650) rotate(45)">五反田</text>
+    <text transform="translate(355,650) rotate(45)">新橋</text>
+    <text transform="translate(565,650) rotate(45)">日本橋</text>
    </g>
 
    <g id="ginza-line-station-labels" font-size="22" font-weight="bold">
@@ -52,6 +56,10 @@
     <text transform="translate(140,520) rotate(45)">白金高輪</text>
     <text transform="translate(75,645) rotate(45)">高輪台</text>
     <text transform="translate(145,645) rotate(45)">泉源寺</text>
+    <text transform="translate(215,645) rotate(45)">三田</text>
+    <text transform="translate(285,645) rotate(45)">大門</text>
+    <text transform="translate(425,645) rotate(45)">東銀座</text>
+    <text transform="translate(495,645) rotate(45)">室町</text>
 
     <text transform="translate(140,-320) rotate(45)">東池袋</text>
     <text transform="translate(210,-320) rotate(45)">護国寺</text>
@@ -102,8 +110,8 @@
    <polyline stroke="#fa2" id="ginza-line"      points="0,190  240,190 470,400 1400,190" fill="none" />
    <polyline stroke="#887" id="hibiya-line" points="-60,340  1000,340" fill="none" />
 
-   <polyline stroke="#076" id="nanboku-line" points="0,500  1400,500" fill="none" />
-   <polyline stroke="#059" id="mita-line" points="0,476  1400,476" fill="none" />
+   <polyline stroke="#059" id="nanboku-line" points="0,500  1400,500" fill="none" />
+   <polyline stroke="#076" id="mita-line" points="0,476  1400,476" fill="none" />
    <polyline stroke="#d36" id="asakusa-line" points="0,625   1400,625" fill="none" />
 
   </g>
