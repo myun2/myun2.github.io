@@ -1,0 +1,22 @@
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <g id="tokyo-metro-labels" >
+   <g id="tokyo-metro-major-labels" font-size="42" font-weight="bold" fill="#222" >
+    <text x="100" y="40">池袋</text>
+    <text x="400" y="40">上野</text>
+    <text x="0" y="200">新宿</text>
+    <text x="460" y="200">大手町</text>
+    <text x="0" y="400">渋谷</text>
+    <text x="485" y="400">新橋</text>
+    <text x="100" y="550">目黒</text>
+   </g>
+  </g>
+ </defs>
+
+ <g transform="translate(50,50) scale(0.85)" >
+  <!-- Texts -->
+  <g font-family="Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif">
+   <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tokyo-metro-labels" />
+  </g>
+ </g>
+</svg>
