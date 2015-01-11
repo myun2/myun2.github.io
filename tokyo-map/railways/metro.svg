@@ -4,20 +4,20 @@
    <g id="tokyo-metro-line-name-labels" font-size="26" font-weight="bold" fill="#344" >
     <text x="-120" y="-360">有楽町線</text>
     <text x="-120" y="-328">副都心線</text>
-    <text x="-200" y="-260">東西線</text>
+    <text x="-173" y="-260">東西線</text>
 
-    <text x="-200" y="-165">都営新宿線</text>
-    <text x="-200" y="-120">丸の内線</text>
-    <text x="-200" y="-60">大江戸線</text>
-    <text x="-192" y="60">千代田線</text>
+    <text x="-176" y="-165">都営新宿線</text>
+    <text x="-156" y="-120">丸の内線</text>
+    <text x="-156" y="-48">大江戸線</text>
+    <text x="-170" y="70">千代田線</text>
 
     <text x="-120" y="148">副都心線</text>
     <text x="-120" y="174">半蔵門線</text>
     <text x="-120" y="200">銀座線</text>
-    <text x="-180" y="350">日比谷線</text>
+    <text x="-140" y="326">日比谷線</text>
     <text x="-100" y="484">南北線</text>
     <text x="-100" y="510">三田線</text>
-    <text x="-100" y="635">浅草線</text>
+    <text x="-20" y="635">浅草線</text>
    </g>
 
    <g id="tokyo-metro-major-station-labels" font-size="32" font-weight="bold">
@@ -34,11 +34,12 @@
     <text transform="translate(1330,217) rotate(45)">浅草</text>
 
     <text transform="translate(350,186) rotate(45)">永田町</text>
+    <text transform="translate(384,360) rotate(45)">霞ヶ関</text>
 
     <!-- 浅草線 major Stations -->
-    <text transform="translate(-10,650) rotate(45)">五反田</text>
-    <text transform="translate(355,650) rotate(45)">新橋</text>
-    <text transform="translate(565,650) rotate(45)">日本橋</text>
+    <text transform="translate(70,650) rotate(45)">五反田</text>
+    <text transform="translate(425,650) rotate(45)">新橋</text>
+    <text transform="translate(635,650) rotate(45)">日本橋</text>
    </g>
 
    <g id="ginza-line-station-labels" font-size="22" font-weight="bold">
@@ -52,26 +53,34 @@
     <text transform="translate(90,360) rotate(45)">広尾</text>
     <text transform="translate(155,360) rotate(45)">六本木</text>
 
+    <!-- Mita / Namboku -->
     <text transform="translate(70,520) rotate(45)">白金台</text>
     <text transform="translate(140,520) rotate(45)">白金高輪</text>
-    <text transform="translate(75,645) rotate(45)">高輪台</text>
-    <text transform="translate(145,645) rotate(45)">泉源寺</text>
-    <text transform="translate(215,645) rotate(45)">三田</text>
-    <text transform="translate(285,645) rotate(45)">大門</text>
-    <text transform="translate(425,645) rotate(45)">東銀座</text>
-    <text transform="translate(495,645) rotate(45)">室町</text>
+ 
+    <!-- Asakusa Line -->
+    <text transform="translate(145,645) rotate(45)">高輪台</text>
+    <text transform="translate(215,645) rotate(45)">泉源寺</text>
+    <text transform="translate(285,645) rotate(45)">三田</text>
+    <text transform="translate(355,645) rotate(45)">大門</text>
+    <text transform="translate(495,645) rotate(45)">東銀座</text>
+    <text transform="translate(565,645) rotate(45)">室町</text>
+
+    <text transform="translate(460,740) rotate(45)">汐留</text>
+    <text transform="translate(510,740) rotate(45)">築地市場</text>
+    <text transform="translate(573,740) rotate(45)">勝どき</text>
+    <text transform="translate(635,740) rotate(45)">月島</text>
 
     <text transform="translate(140,-320) rotate(45)">東池袋</text>
     <text transform="translate(210,-320) rotate(45)">護国寺</text>
     <text transform="translate(280,-320) rotate(45)">江戸川橋</text>
 
-    <text transform="translate(-90,7)">代々木上原</text>
-    <text transform="translate(-50,49)">代々木公園</text>
+    <text transform="translate(-76,15)">代々木上原</text>
+    <text transform="translate(-36,55)">代々木公園</text>
     <text transform="translate(45,134)">明治神宮前 原宿</text>
     <text transform="translate(100,80)">北参道</text>
 
     <text transform="translate(-20,-160) rotate(45)">西新宿</text>
-    <text transform="translate(0,-50) rotate(45)">都庁前</text>
+    <text transform="translate(10,-46) rotate(45)">都庁前</text>
     <text transform="translate(80,20) rotate(45)">代々木</text>
     <text transform="translate(230,120)">国立競技場</text>
 
@@ -80,7 +89,7 @@
     <text transform="translate(150,-160)">西早稲田</text>
     <text transform="translate(150,-240)">雑司が谷</text>
 
-    <text transform="translate(100,292)">乃木坂</text>
+    <text transform="translate(108,300)">乃木坂</text>
     <!--新橋-->
     <text transform="translate(560,210) rotate(45)">銀座</text>
     <text transform="translate(630,210) rotate(45)">京橋</text>
@@ -98,12 +107,12 @@
 
   <g id="tokyo-metro-lines" stroke-linejoin="round" stroke-width="12" stroke-linecap="round">
    <polyline stroke="#cb3" id="yurakucho-line" points="0,-420  1500,-420" fill="none" />
-   <polyline stroke="#4bd" id="tozai-line" points="-100,-268  1500,-268" fill="none" />
+   <polyline stroke="#4bd" id="tozai-line" points="-70,-268  1500,-268" fill="none" />
 
    <polyline stroke="#6c3" id="shinjuku-line" points="-30,-175  1500,-175" fill="none" />
-   <polyline stroke="#d22" id="marunouchi-line" points="-80,-120  1500,-120" fill="none" />
-   <polyline stroke="#e69" id="ooedo-line" points="-80,-70  1500,-70" fill="none" />
-   <polyline stroke="#074" id="chiyoda-line" points="-107,0  -47,60  200,300  660,72  900,60" fill="none" />
+   <polyline stroke="#d22" id="marunouchi-line" points="-34,-120  1500,-120" fill="none" />
+   <polyline stroke="#e69" id="ooedo-line" points="-34,-70  1500,-70" fill="none" />
+   <polyline stroke="#074" id="chiyoda-line" points="-100,0  200,300  660,72  900,60" fill="none" />
 
    <polyline stroke="#863" id="fukutoshin-line" points="0,144  100,60   1400,60" fill="none" />
    <polyline stroke="#86c" id="hanzomon-line"   points="0,167  1400,167" fill="none" />
@@ -112,12 +121,12 @@
 
    <polyline stroke="#059" id="nanboku-line" points="0,500  1400,500" fill="none" />
    <polyline stroke="#076" id="mita-line" points="0,476  1400,476" fill="none" />
-   <polyline stroke="#d36" id="asakusa-line" points="0,625   1400,625" fill="none" />
+   <polyline stroke="#d36" id="asakusa-line" points="80,625   1400,625" fill="none" />
 
   </g>
  </defs>
 
- <g transform="translate(160,340) scale(0.74)" >
+ <g transform="translate(135,340) scale(0.74)" >
   <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tokyo-metro-lines" />
 
   <!-- Texts -->
