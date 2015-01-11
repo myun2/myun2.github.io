@@ -21,6 +21,8 @@
    </g>
 
    <g id="tokyo-metro-major-station-labels" font-size="32" font-weight="bold">
+    <text transform="translate(0,-330) rotate(45)">池袋</text>
+    <text transform="translate(0,-100) rotate(45)">新宿</text>
     <text transform="translate(0,217) rotate(45)">渋谷</text>
     <text transform="translate(-72,366) rotate(45)">中目黒</text>
     <text transform="translate(10,366) rotate(45)">恵比寿</text>
@@ -51,9 +53,19 @@
     <text transform="translate(75,645) rotate(45)">高輪台</text>
     <text transform="translate(145,645) rotate(45)">泉源寺</text>
 
+    <text transform="translate(140,-320) rotate(45)">東池袋</text>
+    <text transform="translate(210,-320) rotate(45)">護国寺</text>
+    <text transform="translate(280,-320) rotate(45)">江戸川橋</text>
+
     <text transform="translate(-90,7)">代々木上原</text>
     <text transform="translate(-50,49)">代々木公園</text>
     <text transform="translate(45,134)">明治神宮前 原宿</text>
+    <text transform="translate(100,80)">北参道</text>
+    <text transform="translate(120,0)">新宿三丁目</text>
+    <text transform="translate(120,-80)">東新宿</text>
+    <text transform="translate(120,-160)">西早稲田</text>
+    <text transform="translate(120,-240)">雑司が谷</text>
+
     <text transform="translate(100,292)">乃木坂</text>
     <!--新橋-->
     <text transform="translate(560,210) rotate(45)">銀座</text>
