@@ -1,22 +1,65 @@
-<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" width="1400">
  <defs>
   <g id="tokyo-metro-labels" >
-   <g id="tokyo-metro-major-labels" font-size="42" font-weight="bold" fill="#222" >
-    <text x="100" y="40">池袋</text>
-    <text x="400" y="40">上野</text>
-    <text x="0" y="200">新宿</text>
-    <text x="460" y="200">大手町</text>
-    <text x="0" y="400">渋谷</text>
-    <text x="485" y="400">新橋</text>
-    <text x="100" y="550">目黒</text>
+   <g id="tokyo-metro-line-name-labels" font-size="26" font-weight="bold" fill="#344" >
+    <text x="-100" y="200">銀座線</text>
    </g>
+
+   <g id="tokyo-metro-major-station-labels" font-size="32" font-weight="bold">
+    <text transform="translate(0,217) rotate(45)">渋谷</text>
+    <text transform="translate(490,215) rotate(45)">新橋</text>
+    <text transform="translate(840,217) rotate(45)">神田</text>
+    <text transform="translate(1050,214) rotate(45)">上野</text>
+    <text transform="translate(1330,217) rotate(45)">浅草</text>
+   </g>
+
+   <g id="ginza-line-station-labels" font-size="22" font-weight="bold">
+    <text transform="translate(70,210) rotate(45)">表参道</text>
+    <text transform="translate(140,210) rotate(45)">外苑前</text>
+    <text transform="translate(210,210) rotate(45)">青山一丁目</text>
+    <text transform="translate(280,210) rotate(45)">赤坂見附</text>
+    <text transform="translate(350,210) rotate(45)">溜池山王</text>
+    <text transform="translate(420,210) rotate(45)">虎ノ門</text>
+    <!--新橋-->
+    <text transform="translate(560,210) rotate(45)">銀座</text>
+    <text transform="translate(630,210) rotate(45)">京橋</text>
+    <text transform="translate(700,210) rotate(45)">日本橋</text>
+    <text transform="translate(770,210) rotate(45)">三越前</text>
+    <!--神田駅-->
+    <text transform="translate(910,210) rotate(45)">末広町</text>
+    <text transform="translate(980,210) rotate(45)">上野広小路</text>
+    <!--上野-->
+    <text transform="translate(1120,210) rotate(45)">稲荷町</text>
+    <text transform="translate(1190,210) rotate(45)">田原町</text>
+    <text transform="translate(1260,210) rotate(45)">上野広小路</text>
+   </g>
+  </g>
+
+  <g id="tokyo-metro-lines" stroke-linejoin="round" stroke-width="12" stroke-linecap="round">
+   <polyline stroke="#fa2" id="ginza-line" points="0,190  1400,190" fill="none" />
+   <polyline id="marunouchi-line" points="900,-50  660,260  0,260" fill="none" />
+   <polyline id="hibiya-line" points="900,-50  660,260  0,260" fill="none" />
+   <polyline id="tozai-line" points="900,-50  660,260  0,260" fill="none" />
+   <polyline id="chiyoda-line" points="900,-50  660,260  0,260" fill="none" />
+   <polyline id="yurakucho-line" points="900,-50  660,260  0,260" fill="none" />
+   <polyline id="hanzomon-line" points="900,-50  660,260  0,260" fill="none" />
+   <polyline id="nanboku-line" points="900,-50  660,260  0,260" fill="none" />
+   <polyline stroke="#884" id="fukutoshin-line" points="900,360  660,600  0,600" fill="none" />
+
+   <!-- Toei -->
+   <polyline id="asakusa-line" points="900,-50  660,260  0,260" fill="none" />
+   <polyline id="mita-line" points="900,-50  660,260  0,260" fill="none" />
+   <polyline id="shinjuku-line" points="900,-50  660,260  0,260" fill="none" />
+   <polyline id="ooedo-line" points="900,-50  660,260  0,260" fill="none" />
   </g>
  </defs>
 
- <g transform="translate(50,50) scale(0.85)" >
+ <g transform="translate(100,50) scale(0.74)" >
   <!-- Texts -->
   <g font-family="Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif">
    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tokyo-metro-labels" />
   </g>
+
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tokyo-metro-lines" />
  </g>
 </svg>
