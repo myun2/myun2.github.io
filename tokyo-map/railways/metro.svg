@@ -1,7 +1,13 @@
-<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" width="1400">
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" height="800" width="1400">
  <defs>
   <g id="tokyo-metro-labels" >
    <g id="tokyo-metro-line-name-labels" font-size="26" font-weight="bold" fill="#344" >
+    <text x="-200" y="-380">有楽町線</text>
+    <text x="-200" y="-340">副都心線</text>
+    <text x="-200" y="-260">東西線</text>
+
+    <text x="-200" y="-165">都営新宿線</text>
+    <text x="-200" y="-120">丸の内線</text>
     <text x="-240" y="-50">大江戸線</text>
     <text x="-192" y="60">千代田線</text>
 
@@ -9,6 +15,9 @@
     <text x="-120" y="174">半蔵門線</text>
     <text x="-120" y="200">銀座線</text>
     <text x="-180" y="350">日比谷線</text>
+    <text x="-180" y="484">南北線</text>
+    <text x="-180" y="510">三田線</text>
+    <text x="-180" y="600">浅草線</text>
    </g>
 
    <g id="tokyo-metro-major-station-labels" font-size="32" font-weight="bold">
