@@ -8,7 +8,7 @@
 
     <text x="-200" y="-165">都営新宿線</text>
     <text x="-200" y="-120">丸の内線</text>
-    <text x="-240" y="-50">大江戸線</text>
+    <text x="-240" y="-60">大江戸線</text>
     <text x="-192" y="60">千代田線</text>
 
     <text x="-120" y="148">副都心線</text>
@@ -71,7 +71,7 @@
   </g>
 
   <g id="tokyo-metro-lines" stroke-linejoin="round" stroke-width="12" stroke-linecap="round">
-   <polyline stroke="#e69" id="ooedo-line" points="900,-60  660,-60  -200,-60" fill="none" />
+   <polyline stroke="#e69" id="ooedo-line" points="-110,-70  900,-70  660,-70" fill="none" />
    <polyline stroke="#074" id="chiyoda-line" points="-107,0  -47,60  200,300  660,72  900,60" fill="none" />
 
    <polyline stroke="#884" id="fukutoshin-line" points="0,144  100,60   1400,60" fill="none" />
