@@ -2,8 +2,8 @@
  <defs>
   <g id="tokyo-metro-labels" >
    <g id="tokyo-metro-line-name-labels" font-size="26" font-weight="bold" fill="#344" >
-    <text x="-200" y="-380">有楽町線</text>
-    <text x="-200" y="-340">副都心線</text>
+    <text x="-120" y="-380">有楽町線</text>
+    <text x="-120" y="-348">副都心線</text>
     <text x="-200" y="-260">東西線</text>
 
     <text x="-200" y="-165">都営新宿線</text>
@@ -83,10 +83,15 @@
   </g>
 
   <g id="tokyo-metro-lines" stroke-linejoin="round" stroke-width="12" stroke-linecap="round">
-   <polyline stroke="#e69" id="ooedo-line" points="-110,-70  900,-70  660,-70" fill="none" />
+   <polyline stroke="#cb3" id="yurakucho-line" points="0,-390  1500,-390" fill="none" />
+   <polyline stroke="#4bd" id="tozai-line" points="-100,-268  1500,-268" fill="none" />
+
+   <polyline stroke="#6c3" id="shinjuku-line" points="-110,-190  1500,-190" fill="none" />
+   <polyline stroke="#d22" id="marunouchi-line" points="-110,-120  1500,-120" fill="none" />
+   <polyline stroke="#e69" id="ooedo-line" points="-110,-70  1500,-70" fill="none" />
    <polyline stroke="#074" id="chiyoda-line" points="-107,0  -47,60  200,300  660,72  900,60" fill="none" />
 
-   <polyline stroke="#884" id="fukutoshin-line" points="0,144  100,60   1400,60" fill="none" />
+   <polyline stroke="#863" id="fukutoshin-line" points="0,144  100,60   1400,60" fill="none" />
    <polyline stroke="#86c" id="hanzomon-line"   points="0,167  1400,167" fill="none" />
    <polyline stroke="#fa2" id="ginza-line"      points="0,190  240,190 470,400 1400,190" fill="none" />
    <polyline stroke="#887" id="hibiya-line" points="-60,340  1000,340" fill="none" />
@@ -95,13 +100,6 @@
    <polyline stroke="#059" id="mita-line" points="0,476  1400,476" fill="none" />
    <polyline stroke="#d36" id="asakusa-line" points="0,625   1400,625" fill="none" />
 
-   <polyline id="marunouchi-line" points="900,-50  660,260  0,260" fill="none" />
-   <polyline id="tozai-line" points="900,-50  660,260  0,260" fill="none" />
-   <polyline id="yurakucho-line" points="900,-50  660,260  0,260" fill="none" />
-
-
-   <!-- Toei -->
-   <polyline id="shinjuku-line" points="900,-50  660,260  0,260" fill="none" />
   </g>
  </defs>
 
