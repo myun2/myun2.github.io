@@ -2,7 +2,10 @@
  <defs>
   <g id="tokyo-metro-labels" >
    <g id="tokyo-metro-line-name-labels" font-size="26" font-weight="bold" fill="#344" >
-    <text x="-100" y="200">銀座線</text>
+    <text x="-120" y="148">副都心線</text>
+    <text x="-120" y="174">半蔵門線</text>
+    <text x="-120" y="200">銀座線</text>
+    <text x="-180" y="350">日比谷線</text>
    </g>
 
    <g id="tokyo-metro-major-station-labels" font-size="32" font-weight="bold">
@@ -11,15 +14,21 @@
     <text transform="translate(840,217) rotate(45)">神田</text>
     <text transform="translate(1050,214) rotate(45)">上野</text>
     <text transform="translate(1330,217) rotate(45)">浅草</text>
+
+    <text transform="translate(350,186) rotate(45)">永田町</text>
+    <text transform="translate(-72,366) rotate(45)">中目黒</text>
+    <text transform="translate(10,366) rotate(45)">恵比寿</text>
    </g>
 
    <g id="ginza-line-station-labels" font-size="22" font-weight="bold">
     <text transform="translate(70,210) rotate(45)">表参道</text>
     <text transform="translate(140,210) rotate(45)">外苑前</text>
     <text transform="translate(210,210) rotate(45)">青山一丁目</text>
-    <text transform="translate(280,210) rotate(45)">赤坂見附</text>
-    <text transform="translate(350,210) rotate(45)">溜池山王</text>
+    <text transform="translate(280,234)">赤坂見附</text>
+    <text transform="translate(330,280)">溜池山王</text>
     <text transform="translate(420,210) rotate(45)">虎ノ門</text>
+
+    <text transform="translate(90,360) rotate(45)">広尾</text>
     <!--新橋-->
     <text transform="translate(560,210) rotate(45)">銀座</text>
     <text transform="translate(630,210) rotate(45)">京橋</text>
@@ -36,15 +45,16 @@
   </g>
 
   <g id="tokyo-metro-lines" stroke-linejoin="round" stroke-width="12" stroke-linecap="round">
-   <polyline stroke="#fa2" id="ginza-line" points="0,190  1400,190" fill="none" />
+   <polyline stroke="#884" id="fukutoshin-line" points="0,144  100,60   1400,60" fill="none" />
+   <polyline stroke="#86c" id="hanzomon-line"   points="0,167  1400,167" fill="none" />
+   <polyline stroke="#fa2" id="ginza-line"      points="0,190  240,190 470,400 1400,190" fill="none" />
+   <polyline stroke="#887" id="hibiya-line" points="-60,340  1000,340" fill="none" />
+
    <polyline id="marunouchi-line" points="900,-50  660,260  0,260" fill="none" />
-   <polyline id="hibiya-line" points="900,-50  660,260  0,260" fill="none" />
    <polyline id="tozai-line" points="900,-50  660,260  0,260" fill="none" />
    <polyline id="chiyoda-line" points="900,-50  660,260  0,260" fill="none" />
    <polyline id="yurakucho-line" points="900,-50  660,260  0,260" fill="none" />
-   <polyline id="hanzomon-line" points="900,-50  660,260  0,260" fill="none" />
    <polyline id="nanboku-line" points="900,-50  660,260  0,260" fill="none" />
-   <polyline stroke="#884" id="fukutoshin-line" points="900,360  660,600  0,600" fill="none" />
 
    <!-- Toei -->
    <polyline id="asakusa-line" points="900,-50  660,260  0,260" fill="none" />
@@ -54,12 +64,12 @@
   </g>
  </defs>
 
- <g transform="translate(100,50) scale(0.74)" >
+ <g transform="translate(146,180) scale(0.74)" >
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tokyo-metro-lines" />
+
   <!-- Texts -->
   <g font-family="Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif">
    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tokyo-metro-labels" />
   </g>
-
-  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tokyo-metro-lines" />
  </g>
 </svg>
