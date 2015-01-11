@@ -15,8 +15,8 @@
     <text x="-120" y="174">半蔵門線</text>
     <text x="-120" y="200">銀座線</text>
     <text x="-140" y="326">日比谷線</text>
-    <text x="-100" y="484">南北線</text>
-    <text x="-100" y="510">三田線</text>
+    <text x="-100" y="499">南北線</text>
+    <text x="-100" y="525">三田線</text>
     <text x="-20" y="635">浅草線</text>
    </g>
 
@@ -24,9 +24,9 @@
     <text transform="translate(65,-330) rotate(45)">池袋</text>
     <text transform="translate(65,-100) rotate(45)">新宿</text>
     <text transform="translate(0,217) rotate(45)">渋谷</text>
-    <text transform="translate(-72,366) rotate(45)">中目黒</text>
-    <text transform="translate(10,366) rotate(45)">恵比寿</text>
-    <text transform="translate(-10,527) rotate(45)">目黒</text>
+    <text transform="translate(-78,372) rotate(45)">中目黒</text>
+    <text transform="translate(8,374) rotate(45)">恵比寿</text>
+    <text transform="translate(-15,543) rotate(45)">目黒</text>
 
     <text transform="translate(490,215) rotate(45)">新橋</text>
     <text transform="translate(840,217) rotate(45)">神田</text>
@@ -37,25 +37,25 @@
     <text transform="translate(384,360) rotate(45)">霞ヶ関</text>
 
     <!-- 浅草線 major Stations -->
-    <text transform="translate(70,650) rotate(45)">五反田</text>
+    <text transform="translate(65,660) rotate(45)">五反田</text>
     <text transform="translate(425,650) rotate(45)">新橋</text>
     <text transform="translate(635,650) rotate(45)">日本橋</text>
    </g>
 
    <g id="ginza-line-station-labels" font-size="22" font-weight="bold">
     <text transform="translate(70,210) rotate(45)">表参道</text>
-    <text transform="translate(140,210) rotate(45)">外苑前</text>
+    <text transform="translate(140,213) rotate(45)">外苑前</text>
     <text transform="translate(210,210) rotate(45)">青山一丁目</text>
-    <text transform="translate(280,234)">赤坂見附</text>
-    <text transform="translate(330,280)">溜池山王</text>
+    <text transform="translate(300,240)">赤坂見附</text>
+    <text transform="translate(365,280)">国会議事堂前</text>
     <text transform="translate(420,210) rotate(45)">虎ノ門</text>
 
     <text transform="translate(90,360) rotate(45)">広尾</text>
-    <text transform="translate(155,360) rotate(45)">六本木</text>
+    <text transform="translate(225,360) rotate(45)">六本木</text>
 
     <!-- Mita / Namboku -->
-    <text transform="translate(70,520) rotate(45)">白金台</text>
-    <text transform="translate(140,520) rotate(45)">白金高輪</text>
+    <text transform="translate(65,535) rotate(45)">白金台</text>
+    <text transform="translate(135,535) rotate(45)">白金高輪</text>
  
     <!-- Asakusa Line -->
     <text transform="translate(145,645) rotate(45)">高輪台</text>
@@ -74,8 +74,8 @@
     <text transform="translate(210,-320) rotate(45)">護国寺</text>
     <text transform="translate(280,-320) rotate(45)">江戸川橋</text>
 
-    <text transform="translate(-76,15)">代々木上原</text>
-    <text transform="translate(-36,55)">代々木公園</text>
+    <text transform="translate(-68,15)">代々木上原</text>
+    <text transform="translate(-30,55)">代々木公園</text>
     <text transform="translate(45,134)">明治神宮前 原宿</text>
     <text transform="translate(100,80)">北参道</text>
 
@@ -90,6 +90,10 @@
     <text transform="translate(150,-240)">雑司が谷</text>
 
     <text transform="translate(108,300)">乃木坂</text>
+    <text transform="translate(240,330)">赤坂</text>
+    <text transform="translate(160,430)">麻布十番</text>
+    <text transform="translate(340,480)">赤羽橋</text>
+
     <!--新橋-->
     <text transform="translate(560,210) rotate(45)">銀座</text>
     <text transform="translate(630,210) rotate(45)">京橋</text>
@@ -105,29 +109,83 @@
    </g>
   </g>
 
+  <g id="tokyo-metro-stations" stroke-width="5" fill="white">
+   <g id="tokyo-metro-chiyoda-line-stations" stroke="#132">
+    <circle cx="-77" cy="15" r="8" />
+    <circle cx="-45" cy="50" r="8" />
+    <circle cx="28" cy="122" r="8" />
+    <circle cx="165" cy="266" r="8" />
+    <circle cx="260" cy="300" r="8" />
+   </g>
+
+   <g id="tokyo-metro-hibiya-line-stations" stroke="#443">
+    <circle cx="100" cy="340" r="8" />
+    <circle cx="222" cy="340" r="8" />
+   </g>
+   <g id="tokyo-metro-asakusa-line-stations" stroke="#715">
+    <circle cx="155" cy="625" r="8" />
+    <circle cx="225" cy="625" r="8" />
+    <circle cx="365" cy="625" r="8" />
+   </g>
+
+   <g id="tokyo-metro-hanzomon-line-stations" stroke="#222">
+    <rect x="-10" y="136" width="13" height="60" rx="8" ry="8" />
+    <rect transform="translate(59,165) rotate(-45)" width="16" height="55" rx="8" ry="8" />
+    <circle cx="152" cy="192" r="8" />
+    <rect x="215" y="156" width="13" height="40" rx="8" ry="8" />
+
+    <rect x="-5" y="483" width="13" height="40" rx="8" ry="8" />
+    <rect x="70" y="483" width="13" height="40" rx="8" ry="8" />
+    <rect x="140" y="483" width="13" height="40" rx="8" ry="8" />
+    <circle cx="265" cy="420" r="8" />
+    <circle cx="315" cy="470" r="8" />
+    <circle cx="320" cy="360" r="8" />
+    <circle cx="320" cy="400" r="8" />
+    <circle cx="320" cy="300" r="8" />
+
+    <rect transform="translate(298,210) rotate(45)" width="13" height="40" rx="8" ry="8" />
+    <rect transform="translate(350,262) rotate(45)" width="13" height="40" rx="8" ry="8" />
+    <circle cx="333" cy="180" r="20" />
+   </g>
+   
+   <g id="tokyo-metro-mita-namboku-line-stations">
+   </g>
+  </g>
+
+  <g id="tokyo-metro-major-stations" stroke-width="6" fill="white">
+   <g id="tokyo-metro-hibiya-line-major-stations" stroke="#443">
+    <circle cx="-60" cy="340" r="12" />
+    <circle cx="25" cy="340" r="12" />
+   </g>
+   <g id="tokyo-metro-asakusa-line-major-stations" stroke="#715">
+    <circle cx="80" cy="625" r="12" />
+   </g>
+  </g>
+
   <g id="tokyo-metro-lines" stroke-linejoin="round" stroke-width="12" stroke-linecap="round">
-   <polyline stroke="#cb3" id="yurakucho-line" points="0,-420  1500,-420" fill="none" />
+   <polyline stroke="#cb3" id="yurakucho-line" points="0,-420  345,-420  345,190 1500,-420" fill="none" />
    <polyline stroke="#4bd" id="tozai-line" points="-70,-268  1500,-268" fill="none" />
 
    <polyline stroke="#6c3" id="shinjuku-line" points="-30,-175  1500,-175" fill="none" />
-   <polyline stroke="#d22" id="marunouchi-line" points="-34,-120  1500,-120" fill="none" />
-   <polyline stroke="#e69" id="ooedo-line" points="-34,-70  1500,-70" fill="none" />
-   <polyline stroke="#074" id="chiyoda-line" points="-100,0  200,300  660,72  900,60" fill="none" />
+   <polyline stroke="#d51111" id="marunouchi-line" points="-34,-120  295,-120  295,220  445,370  1500,-120" fill="none" />
+   <polyline stroke="#e69" id="ooedo-line" points="-34,-70  222,-70  222,380  560,710  1500,-70" fill="none" />
+   <polyline stroke="#074" id="chiyoda-line" points="-92,0  200,300  700,300  900,60" fill="none" />
 
-   <polyline stroke="#863" id="fukutoshin-line" points="0,144  100,60   1400,60" fill="none" />
+   <polyline stroke="#863" id="fukutoshin-line" points="0,144  100,60   200,-260" fill="none" />
    <polyline stroke="#86c" id="hanzomon-line"   points="0,167  1400,167" fill="none" />
-   <polyline stroke="#fa2" id="ginza-line"      points="0,190  240,190 470,400 1400,190" fill="none" />
-   <polyline stroke="#887" id="hibiya-line" points="-60,340  1000,340" fill="none" />
+   <polyline stroke="#fa2" id="ginza-line"      points="0,190  236,190  590,550 1400,190" fill="none" />
+   <polyline stroke="#887" id="hibiya-line" points="-60,340  250,340  320,400   1000,340" fill="none" />
 
-   <polyline stroke="#059" id="nanboku-line" points="0,500  1400,500" fill="none" />
-   <polyline stroke="#076" id="mita-line" points="0,476  1400,476" fill="none" />
+   <polyline stroke="#008476" id="nanboku-line" points="0,492  200,492  320,360   320,-360" fill="none" />
+   <polyline stroke="#059" id="mita-line" points="0,516  1400,516" fill="none" />
    <polyline stroke="#d36" id="asakusa-line" points="80,625   1400,625" fill="none" />
-
   </g>
  </defs>
 
  <g transform="translate(135,340) scale(0.74)" >
   <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tokyo-metro-lines" />
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tokyo-metro-stations" />
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tokyo-metro-major-stations" />
 
   <!-- Texts -->
   <g font-family="Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif">
